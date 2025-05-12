@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb); /* ungu gradasi */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #9b59b6;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8e44ad;
+  }
+  
+  .clue {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+  }
+  

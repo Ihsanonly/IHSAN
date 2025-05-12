@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>From Ihsan to bunda</title>
+  <link rel="stylesheet" href="style-index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Siapa wanita paling cantik di bumi?</h1>
+    <input type="text" id="jawaban" placeholder="Tulis jawabanmu di sini">
+    <button onclick="cekJawaban()">Jawab</button>
+    <button onclick="tampilkanClue()">Butuh Clue?</button>
+    <p id="clue" class="clue"></p>
+  </div>
+
+  <script>
+    function tampilkanClue() {
+      document.getElementById("clue").textContent = "Namanya dimulai dari huruf 'I' dan sangat istimewa 💜";
+    }
+
+    function cekJawaban() {
+      const input = document.getElementById("jawaban").value.trim().toLowerCase();
+      if (input === "ina muhaeminah") {
+        window.location.href = "mailbox.html";
+      } else {
+        alert("Ups! Coba lagi ya, Udah jawab pake namamu belum? 😉");
+      }
+    }
+  </script>
+</body>
+</html>
